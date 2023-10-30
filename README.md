@@ -1,7 +1,11 @@
 # Pro-IDD
 _Welcome to this repository !_ 
 
-This repository contains the code and data used in the paper titled __Pro-IDD : Pareto-based ensemble for imbalanced and drifting data streams__ published with __Knowledge-based Systems__. The main code file is available at the root folder in the form of Jupyter Notebook. The code is written in Python and may require some libraries to be installed prior to running. The data streams used in the experiments are also available in a folder at root. Some data streams are heavier in size and could be obtained by correspondence with the authors.
+This repository contains the code and data used in the paper:
+
+__Pro-IDD : Pareto-based ensemble for imbalanced and drifting data streams__, __Knowledge-based Systems__, 2023. 
+
+The main code file is available at the root folder in the form of Jupyter Notebook. The code is written in Python and may require some libraries to be installed prior to running. The data streams used in the experiments are also available in a folder at root. Some data streams are heavier in size and could be obtained by correspondence with the authors.
 
 ✒️ __Pro-IDD Brief:__ Pro-IDD is an ensemble based method capable to tackle both concept drifts and class imbalance in data streams. Min++ proposed in ProIDD handles the class imbalance at an advanced level using oversampling and undersampling techniques which are targetted at cluster-level and boundary area respectively. Furthermore, the ensemble management under ProIDD is capable to address both core issues i.e. the class imbalance and concept drifts. It prunes the ensemble using a time-decayed recall-based weight criterian and ensemble diversity through Pareto-based optimization, providing high generalization performance.
 
